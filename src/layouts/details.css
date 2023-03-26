@@ -1,0 +1,5 @@
+.details_wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9ecef;
+}

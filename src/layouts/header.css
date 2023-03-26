@@ -1,0 +1,12 @@
+.header{
+    height: 5rem;
+     border-bottom: 1px solid grey;
+        display: flex;
+        justify-items: space-around;
+        align-items: center;
+        z-index: 1019;
+        box-shadow: 0 5px 10px rgba(151, 164, 175, .05);
+}
+.title{
+     margin-left: 1rem ;
+}

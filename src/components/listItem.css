@@ -1,0 +1,62 @@
+.list_wrapper{
+    display: grid;
+    grid-template-columns: 33% 50% 17%;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0rem;
+  
+}
+.image_wrapper{
+    
+ background-color: rgb(248, 249,250);
+ height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+.image_icon{
+    width: 20px;
+    height: 20px;
+}
+
+.list_item{
+     display: flex;
+     flex-direction: column;
+   align-items: flex-start;
+     
+     
+}
+
+.address{
+    max-width: 6rem;
+    overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+    
+
+}
+
+.col_1{
+     display: flex;
+     margin: 0 1rem;
+}
+
+.recipt_wrapper{
+     display: flex;
+}
+
+.amount{
+    border:1px solid grey;
+    border-radius: 4px;
+    width: 4rem;
+}
+.link {
+    color: rgb(7,132,195);
+}
